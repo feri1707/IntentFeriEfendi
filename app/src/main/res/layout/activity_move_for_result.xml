@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoveActivityForResult"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/choose"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_color"
+        android:orientation="vertical"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_green"
+            android:text="@string/hobi1"
+            android:textSize="20sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_purple"
+            android:text="@string/hobi2"
+            android:textSize="20sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rb_orange"
+            android:text="@string/hobi3"
+            android:textSize="20sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_choose"
+        android:text="@string/choose"
+        android:background="@color/purple_700"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@id/rg_color"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="KEMBALI"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:id="@+id/btn_back"/>
+
+</RelativeLayout>

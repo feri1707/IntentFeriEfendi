@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IntentFeriEfendi</string>
+    <string name="move_activity">PINDAH AKTIVITI</string>
+    <string name="move_with_data">PINDAH AKTIFITI DENGAN DATA</string>
+    <string name="dial_number">DIAL NUMBER</string>
+    <string name="move_with_result">PINDAH AKTIVITI UNTUK RESULT</string>
+    <string name="result_from_activity">HASIL DARI AKTIVITI</string>
+    <string name="choose_hobi">PILIH HOBI YANG ANDA</string>
+    <string name="choose">PILIH</string>
+    <string name="data_receveid">DATA DITERIMA</string>
+    <string name="this_is_move_activity">INI PINDAH AKTIFITI</string>
+    <string name="hobi1">DESAIN</string>
+    <string name="hobi2">MENULIS</string>
+    <string name="hobi3">REBAHAN</string>
+</resources>
